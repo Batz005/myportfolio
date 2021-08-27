@@ -1,14 +1,4 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -46,9 +36,9 @@
     <div id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Bharath Kotipalli</span>
           <br />
-          I'm the Unknown Developer.
+          This website showcases my portfolio!
         </h1>
         <p class="hero-cta" class="load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -79,11 +69,13 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
+                I'm bharath. I love tech. I spend my free time watching videos or browsing articles related to tech. I'm open-minded, a bit of an introvert (atleast some times) and a stubborn person when it comes to my principles (I did rather break than bend when it comes to few aspects).
+                I'm not the type to just blindly follow the crowd. I don't just do something just because everyone else is doing it. I only do it if i liked it myself too. I did experience few downtimes in my life but I have overcome them and now I'm looking forward to learning new things and developing lots of amazing things with the knowledge I have. 
+
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                I like reading webnovels, browsing tech related articles, videos etc. I recently found out that I love that amazing feeling of accomplishment when I complete a program or project. It just feels amazing that I have built that myself. (even though those are just small things compared to many other projects worldwide)
+                So, I'm trying to get into open source community and contribute to the many amazing open source projects around the world! (Wish me luck!😉)
               </p>
               <span class="d-flex mt-3">
                 <a
@@ -107,39 +99,8 @@
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
+         <!-- 1st project -->
+          <center>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                 <a rel="noreferrer" href="#!" target="_blank">
@@ -147,47 +108,56 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/project1.jpg"
                     />
+                    <sub>Chatbot*</sub>   
                   </div>
                 </a>
               </div>
             </div>
-          </div>
+          </center>
+         
+          <center>
+            <div class="column">
+              <div class="col-lg-10 col-sm-12">
+                <div class="project-wrapper__text">
+                  <center><h3 class="project-wrapper__text-title">College Enquiry Chatbot</h3></center>
+                  <div>
+                    <p class="mb-4">
+                      <strong>Why and What?</strong>
+                      I choose to do this project during my 6th semester of college. Why? I observed during covid that students are often asking redundent questions to teachers or other staff. I heard teachers complaining about the same too. Since, they had to answer the same questions to multiple students and 
+                      the students will also have to wait for the teachers to see their message and reply to it.  Some of the students even started spamming teachers since they didn't receive answers on time. So, I decided to create a chatbot!
+                      I wanted this chatbot to answer all the general queries of the students. Teachers or other staff can give few details like the assignment deadlines, guidelines, slip test dates etc. This data is then used to answer the queries of the students.
+                      <br/>
+                      This is a web application where students can login and ask the chatbot their queries. This chatbot will store 
+                      all the details regarding the usual college enquiries including assignments, exams, deadlines, 
+                      guidelines etc. Whenever a student has any query, they can ask the chatbot and the chatbot 
+                      will answer their query within seconds. Thus, both students and the teacher’s time will not be 
+                      wasted on these general queries. Teachers will also be free from being spammed by students 
+                      regarding the same issue. It saves time for the student as well as teaching and non-teaching 
+                      staff. It saves time and manpower and reduces the work of the staff. A retrieval based chatbot 
+                      is used in this scenario. The chatbot analyzes the user’s query to extract the intents and 
+                      entities in the query using natural language processing (NLP). Then the chatbot will select the 
+                      most appropriate response based on similarity metrics. The chatbot also has a section where 
+                      you can just chat with the chatbot casually (this part is implemented using chatterbot library). 
+                      Students can use this web application through the front-end. It should consist of a login page and 
+                      a user page where users can converse with the chatbot.
+                      <br/>
+                      I want to include this chatbot to the <u>student-centric social networking platform </u>. I will be working on this project in my final year. So, I wanted to make a few changes to the chatbot( make it a retrieval cum generative chatbot) and include it into the final year project. So, my final year project will ultimately combine everything and extend upon them.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </center>
           <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <!-- 2nd project -->
+          <center>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                 <a rel="noreferrer" href="#!" target="_blank">
@@ -195,79 +165,101 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/project2.jpg"
                     />
+                    <sub>Activities Section*</sub>   
                   </div>
                 </a>
+                <p>*Since the project isn't completed yet, same data is used for all the activities.</p>
               </div>
             </div>
-          </div>
+          </center>
+          
+
+         
+          <center>
+            <div class="column">
+              <div class="col-lg-10 col-sm-12">
+                <div class="project-wrapper__text">
+                  <center><h3 class="project-wrapper__text-title">Student-Centric Social Networking website</h3></center>
+                  <div>
+                    <p class="mb-4">
+                      <strong>Why and What?</strong>
+                      I choose to do this project during my 5th semester of college. Why? It's because I wanted to try and contribute something to my college. So, I started thinking🤔...
+                      I wanted to create a place where every student, teacher and alumni of cbit can get together. I wanted it to be exclusive to cbit. So, I decided on this project. 
+                      <br/>
+                      I understood the difference between working on an actual project and the theoritical knowledge we gain in the college. So, I wanted to encourage the juniors to work on open source projects etc. Bcoz i believe that actually working on real life projects is the best way to acquire true skills. So, I added 'Activities' Section to the webapp.
+                      Back when I entered the college, I didn't know much about the different clubs in the college ( my friends didn't know about most of them too...). I wanted to have a single place where we can have all the clubs showcase their activities, achievements etc.
+                      So, I added a 'Clubs' section to the webapp. There is also a resources section in the webapp. In this section, all kinds of resources are provided to the students based on different topics. Apart from the links to different online resources, e-books etc., I wanted teachers or students to make few snippets or tutorials in youtube and the same videos can be played in this section.
+                      I also wanted to create chatting facility where students can chat to teachers, alumni etc. and get their queries answered. At the end of the day, this platform is all about connecting to right people and enhancing the college experience both academically and socially.
+                      <br/>
+                      This project wasn't completed. From the very beginning, it wasn't supposed to be. I worked on this project alone. So, I decided to just work on the frontend and implemented some parts of the front end. Not every part of the project is completely working. I wanted to take the same project as my final year major project (academic year: 2021 -22) and complete it. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </center>
+          
           <!-- /END Project -->
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded js-tilt">
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
+          <!-- 3rd project -->
+          
+          <center>
+            <div class="column">
+              <div class="col-lg-10 col-sm-12">
+                <div class="project-wrapper__text">
+                  <center><h3 class="project-wrapper__text-title">Wallet Application using C++</h3></center>
+                  <div>
+                    <p class="mb-4">
+                      <strong>Why and What?</strong>
+                      I choose to do this project during my 3rd semester of college. Why? I saw lot of students queuing and waiting for a lot of time near payment cell. I saw students pushing each other in crowds near the canteen to pay for their meals. So, I and my teammate decided to make a wallet application where we used a scanner to read the barcodes on our college id cards and used that as an id to login into the app and make payments.
+                      It's a bit like a credit/debit card. We used our college id cards as the id and students can scan their cards and change the money associated with that id no. to make payments. Students can use their cards at payment counters to recharge their cards. This will allow them to use the money that's been alloted to that id no. to make payments at available centres in college.
+                      The operator can retrieve the account details of the student if the operator's pc is connected to the main pc through windows homegroup.
+                      The details are stored in files (using the file read/write functionalities available in C). The main file contained all the mail ids' and
+                      the corresponding hashes using which the program identifies the filename of the account (which is created randomly during registration). 
+                      This file contains the details regarding that particular user. (I didn't know how to use a database back then, so I used files to store my 
+                      data as efficiently as I could)
+                      (This is how we envisioned it. Even though we completed the project, we didn't actually implement it in the college.)
+                      <br/>
+                      <strong>What I learned from this project?</strong>
+                      This is my very first project. I didn't have proper guidance at the time. So, i wrote the entire code in a single file. I didn't use functions or classes as much as I should have. I didn't divide the code into different modules. So, whenever I faced an issue while working on the project, it was really hard to find the place where the issue occured. It was a nightmare. 
+                      So, ever since this project. I started to modularize my code. I started dividing the project into small modules and stopped copy-pasting code and started using functions or modules to reuse the same code. 
+                      I didn't know about databases when i worked on this project. So, I stored the data in files and used the function in c++ to access/modify files. At first, I just saved the account details of every customer in the same file. But then I observed that I'm reading through each and every line to find the account details of the current customer. That didn't seem like a good idea since I will read through the account details of every person from the start to the current customer's account details location. In terms of security and time required, it didn't seem like an efficient way. 
+                      So, I divided everything. I created some kind of unique key for each customer, which will be available in the main file. So, whenever i needed to access a customer's details. I read through the main file, to find the correct login credentials and the corresponding key. This key is then used to create a filename, which will be the name of the file in which that corresponding customer's details are saved. 
+                      When I later, learnt database management etc. I found out that the key I used back in my first project is like the primary key in a database. (Even though in a real database, the implementation might be lot more sophisticated.)
+                      This is the worst project I worked on but it's also the project in which I learned a lot.
+                    </p>
                   </div>
-                </a>
+                </div>
               </div>
+              
             </div>
-          </div>
+          </center>
           <!-- /END Project -->
         </div>
       </div>
     </section>
     <!-- /END Projects Section -->
-
+    <h3>There is a lot on my schedule during the academic year: 2021 - 2022. So, Stay tuned for more projects...😜</h3>
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">Contact me using...</p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="bharath.kotipalli@gmail.com"
+            >Email me!</a
           >
         </div>
       </div>
@@ -281,23 +273,14 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/Batz005" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
 
         <hr />
 
-        <!-- If you give me some credit, will be huge for me :) -->
+        
         <p class="footer__text">
           © 2021 - Template developed by
           <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
@@ -305,29 +288,7 @@
           >
         </p>
 
-        <!-- Remove this paragraph once you setup your custom portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
+        
       </div>
     </footer>
     <!-- /END Footer Section -->
